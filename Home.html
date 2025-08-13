@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATShop</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Home.css" />
+    <link rel="icon" href="images/pageicon.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header>
+      <div class="mobile-menu">
+        <a href="Home.html" class="mb-logo">ATShop</a>
+        <i class="bx bx-menu mb-menu-toggle"></i>
+      </div>
+
+      <div class="header-wrapper">
+        <i class="bx bx-x mb-menu-close"></i>
+
+        <div class="bg-main">
+          <div class="mid-header container">
+            <a href="Home.html" class="logo">ATShop</a>
+            <div class="search">
+              <input type="text" placeholder="Search" />
+              <i class="bx bx-search-alt"></i>
+            </div>
+            <ul class="user-menu">
+              <li>
+                <a href="ContactUs.html"><i class="bx bx-bell"></i></a>
+              </li>
+              <li>
+                <a href="AboutUs.html"><i class="bx bx-user-circle"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bx-cart"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-second">
+          <div class="bottom-header container">
+            <ul class="main-menu">
+              <li><a href="Home.html">home</a></li>
+              <li class="mega-dropdown">
+                <a href="products.html"
+                  >Shop<i class="bx bxs-chevron-down"></i
+                ></a>
+                <div class="mega-content">
+                  <div class="row">
+                    <div class="col-3 col-md-12">
+                      <div class="box">
+                        <h3>Screen Protection</h3>
+                        <ul>
+                          <li><a href="#">Tempered Glass</a></li>
+                          <li><a href="#">Privacy Screen Protectors</a></li>
+                          <li><a href="#">Anti-Glare Films</a></li>
+                          <li><a href="#">Full Coverage Kits</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-3 col-md-12">
+                      <div class="box">
+                        <h3>Audio</h3>
+                        <ul>
+                          <li><a href="#">Wireless Earbuds</a></li>
+                          <li><a href="#">Wired Earphones</a></li>
+                          <li><a href="#">Bluetooth Headsets</a></li>
+                          <li><a href="#">Neckband Earphones</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-3 col-md-12">
+                      <div class="box">
+                        <h3>Charging</h3>
+                        <ul>
+                          <li><a href="#">Fast Chargers</a></li>
+                          <li><a href="#">Wireless Chargers</a></li>
+                          <li><a href="#">Car Chargers</a></li>
+                          <li><a href="#">Power Banks</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-3 col-md-12">
+                      <div class="box">
+                        <h3>Cases & Covers</h3>
+                        <ul>
+                          <li><a href="#">Slim Cases</a></li>
+                          <li><a href="#">Rugged Armor</a></li>
+                          <li><a href="#">Wallet Cases</a></li>
+                          <li><a href="#">Custom Prints</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="AboutUs.html">About Us</a></li>
+              <li><a href="ContactUs.html">contact</a></li>
+              <li class="only-mobile">
+                <a href="#" id="open-cart-link">Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="hero">
+      <div class="slider">
+        <div class="container">
+          <div class="slide active">
+            <div class="info">
+              <div class="info-content">
+                <h3 class="top-down">JBL TUNE 750TNC</h3>
+                <h2 class="top-down trans-delay-0-2">Next-gen design</h2>
+                <p class="top-down trans-delay-0-4">
+                  Experience immersive sound with the JBL TUNE 750TNC wireless
+                  headphones. Featuring Active Noise Cancelling (ANC), these
+                  headphones let you focus on your music without distractions.
+                  The sleek, foldable design offers premium comfort for all-day
+                  wear, while the 40mm drivers deliver JBL's legendary deep bass
+                  and crisp highs.
+                </p>
+                <div class="top-down trans-delay-0-6">
+                  <button
+                    class="btn-flat bb btn-hover"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="Shop JBL TUNE 750TNC"
+                  >
+                    <span>shop now</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="img top-down">
+              <img src="images/headphones1.png" alt="" />
+            </div>
+          </div>
+          <div class="slide">
+            <div class="info">
+              <div class="info-content">
+                <h3 class="top-down">JBL Quantum ONE</h3>
+                <h2 class="top-down trans-delay-0-2">Ipsum dolor</h2>
+                <p class="top-down trans-delay-0-4">
+                  Dominate the competition with the JBL Quantum ONE—engineered
+                  for esports champions. Featuring True 3D Surround Sound with
+                  head tracking, these headphones deliver pinpoint audio
+                  accuracy for immersive gameplay.
+                </p>
+                <div class="top-down trans-delay-0-6">
+                  <button
+                    class="btn-flat bb btn-hover"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="Shop JBL Quantum ONE"
+                  >
+                    <span>shop now</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="img right-left">
+              <img src="images/headphones2.png" alt="" />
+            </div>
+          </div>
+          <div class="slide">
+            <div class="info">
+              <div class="info-content">
+                <h3 class="top-down">JBL JR 310BT</h3>
+                <h2 class="top-down trans-delay-0-2">Consectetur Elit</h2>
+                <p class="top-down trans-delay-0-4">
+                  The perfect first headphones for little ears! The JBL JR 310BT
+                  combines vibrant colors with safe volume limits (85dB max) to
+                  protect young listeners. Ultra-lightweight and extra-durable,
+                  they're designed to survive playtime adventures.
+                </p>
+                <div class="top-down trans-delay-0-6">
+                  <button
+                    class="btn-flat bb btn-hover"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="Shop JBL JR 310BT"
+                  >
+                    <span>shop now</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="img left-right">
+              <img src="images/headphones3.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <button class="slide-controll slide-next">
+          <i class="bx bxs-chevron-right"></i>
+        </button>
+        <button class="slide-controll slide-prev">
+          <i class="bx bxs-chevron-left"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="promotion">
+      <div class="row">
+        <div class="col-4 col-md-12 col-sm-12">
+          <div
+            class="promotion-box"
+            data-bs-toggle="modal"
+            data-bs-target="#headphonesModal"
+          >
+            <div class="text">
+              <h3>Headphone & Earbuds</h3>
+              <button class="btn-flat btn-hover">
+                <span>shop collection</span>
+              </button>
+            </div>
+            <img src="images/sec2 p1.png" alt="" />
+          </div>
+        </div>
+        <div class="col-4 col-md-12 col-sm-12">
+          <div
+            class="promotion-box"
+            data-bs-toggle="modal"
+            data-bs-target="#quantumModal"
+          >
+            <div class="text">
+              <h3>JBL Quantum Series</h3>
+              <button class="btn-flat btn-hover">
+                <span>shop collection</span>
+              </button>
+            </div>
+            <img src="images/headphones1.png" alt="" />
+          </div>
+        </div>
+        <div class="col-4 col-md-12 col-sm-12">
+          <div
+            class="promotion-box"
+            data-bs-toggle="modal"
+            data-bs-target="#earbudsModal"
+          >
+            <div class="text">
+              <h3>True Wireless Earbuds</h3>
+              <button class="btn-flat btn-hover">
+                <span>shop collection</span>
+              </button>
+            </div>
+            <img src="images/earPods.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="headphonesModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Headphone & Earbuds Collection</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Discover our premium collection of headphones and earbuds designed
+              for every lifestyle.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a href="products.html" class="btn btn-primary">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="quantumModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">JBL Quantum Gaming Series</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Professional gaming headsets with 3D surround sound and
+              crystal-clear communication.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a href="products.html" class="btn btn-primary">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="earbudsModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">True Wireless Earbuds</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Experience freedom with our wireless earbuds featuring active
+              noise cancellation and premium sound quality.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a href="products.html" class="btn btn-primary">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Latest product</h2>
+        </div>
+        <div class="row" id="latest-products">
+          <div class="col-3 col-md-6 col-sm-12">
+            <div class="product-card">
+              <div class="product-card-img">
+                <img src="images/HeadPhoneLP.png" alt="" />
+                <img src="images/headphones3.png" alt="" />
+              </div>
+              <div class="product-card-info">
+                <div class="product-btn">
+                  <button
+                    class="btn-flat btn-hover btn-shop-now"
+                    data-bs-toggle="tooltip"
+                    title="Quick Shop"
+                  >
+                    shop now
+                  </button>
+                  <button
+                    class="btn-flat btn-hover btn-cart-add"
+                    data-bs-toggle="tooltip"
+                    title="Add to Cart"
+                  >
+                    <i class="bx bxs-cart-add"></i>
+                  </button>
+                  <button
+                    class="btn-flat btn-hover btn-cart-add"
+                    data-bs-toggle="tooltip"
+                    title="Add to Wishlist"
+                  >
+                    <i class="bx bxs-heart"></i>
+                  </button>
+                </div>
+                <div class="product-card-name">JBL Quantum 400</div>
+                <div class="product-card-price">
+                  <span><del>$300</del></span>
+                  <span class="curr-price">$200</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-footer">
+          <a href="products.html" class="btn-flat btn-hover">view all</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-second">
+      <div class="section container">
+        <div class="row">
+          <div class="col-4 col-md-4">
+            <div class="sp-item-img">
+              <img src="images/headphones1.png" alt="" />
+            </div>
+          </div>
+          <div class="col-7 col-md-8">
+            <div class="sp-item-info">
+              <div class="sp-item-name">JBL TUNE 750TNC</div>
+              <p class="sp-item-description">
+                Immerse yourself in pure sound with the JBL TUNE 750TNC. These
+                sleek, over-ear headphones feature Adaptive Noise Cancelling
+                (ANC) to block out distractions, while 40mm drivers deliver
+                JBL's legendary deep bass and crystal-clear highs. With 30-hour
+                battery life, plush memory foam ear cushions, and seamless
+                Bluetooth 5.0 connectivity, they're perfect for music, calls,
+                and all-day comfort.
+              </p>
+              <button
+                class="btn-flat btn-hover"
+                data-bs-toggle="tooltip"
+                title="Shop JBL TUNE 750TNC"
+              >
+                shop now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>best selling</h2>
+        </div>
+        <div class="row" id="best-products">
+          <div class="col-3 col-md-6 col-sm-12">
+            <div class="product-card">
+              <div class="product-card-img">
+                <img src="images/PSP2.webp" alt="" />
+              </div>
+              <div class="product-card-info">
+                <div class="product-btn">
+                  <button
+                    class="btn-flat btn-hover btn-shop-now"
+                    data-bs-toggle="tooltip"
+                    title="Quick Shop"
+                  >
+                    shop now
+                  </button>
+                  <button
+                    class="btn-flat btn-hover btn-cart-add"
+                    data-bs-toggle="tooltip"
+                    title="Add to Cart"
+                  >
+                    <i class="bx bxs-cart-add"></i>
+                  </button>
+                  <button
+                    class="btn-flat btn-hover btn-cart-add"
+                    data-bs-toggle="tooltip"
+                    title="Add to Wishlist"
+                  >
+                    <i class="bx bxs-heart"></i>
+                  </button>
+                </div>
+                <div class="product-card-name">JBL Quantum 400</div>
+                <div class="product-card-price">
+                  <span><del>$300</del></span>
+                  <span class="curr-price">$200</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-footer">
+          <a href="products.html" class="btn-flat btn-hover">view all</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>latest blog</h2>
+        </div>
+        <div class="blog">
+          <div class="blog-img">
+            <img src="images/DP.png" alt="" />
+          </div>
+          <div class="blog-info">
+            <div class="blog-title">Game-Changing Audio Trends</div>
+            <div class="blog-preview">
+              Discover how spatial audio, AI sound personalization, and
+              sustainable designs are reshaping the way we experience music.
+              From studio-quality wireless headphones to immersive gaming
+              headsets, we break down the tech you'll want this year.
+            </div>
+            <button class="btn-flat btn-hover">read more</button>
+          </div>
+        </div>
+        <div class="blog row-revere">
+          <div class="blog-img">
+            <img src="images/DP2.png" alt="" />
+          </div>
+          <div class="blog-info">
+            <div class="blog-title">Smart Audio is Changing Everyday Life</div>
+            <div class="blog-preview">
+              From voice-controlled homes to personalized workout playlists,
+              discover how AI-powered audio technology is making our lives
+              richer, easier, and more connected. Learn about the latest
+              innovations you can start using today.
+            </div>
+            <button class="btn-flat btn-hover">read more</button>
+          </div>
+        </div>
+        <div class="section-footer">
+          <a href="#" class="btn-flat btn-hover">view all</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-second">
+      <div class="container">
+        <div class="row">
+          <div class="col-3 col-md-6">
+            <h3 class="footer-head">Shop</h3>
+            <ul class="menu">
+              <li><a href="#">New Arrivals</a></li>
+              <li><a href="#">Best Sellers</a></li>
+              <li><a href="#">Bundle Deals</a></li>
+              <li><a href="#">Clearance</a></li>
+              <li><a href="#">Gift Cards</a></li>
+            </ul>
+          </div>
+
+          <div class="col-3 col-md-6">
+            <h3 class="footer-head">Support</h3>
+            <ul class="menu">
+              <li><a href="#">Product Guides</a></li>
+              <li><a href="#">Returns & Exchanges</a></li>
+              <li><a href="#">Warranty Info</a></li>
+              <li><a href="#">Shipping Policy</a></li>
+              <li><a href="#">Contact Tech Support</a></li>
+            </ul>
+          </div>
+
+          <div class="col-3 col-md-6">
+            <h3 class="footer-head">Company</h3>
+            <ul class="menu">
+              <li><a href="AboutUs.html">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Wholesale Inquiries</a></li>
+              <li><a href="#">Sustainability</a></li>
+            </ul>
+          </div>
+          <div class="col-3 col-md-6 col-sm-12">
+            <div class="contact">
+              <h3 class="contact-header">ATShop</h3>
+              <ul class="contact-socials">
+                <li>
+                  <a href="#">
+                    <i class="bx bxl-facebook-circle"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bx bxl-twitter"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="subscribe">
+              <input type="email" placeholder="ENTER YOUR EMAIL" />
+              <button
+                type="button"
+                data-bs-toggle="tooltip"
+                title="Subscribe to Newsletter"
+              >
+                subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="cart-overlay" class="cart-overlay"></div>
+
+    <div id="cart-sidebar" class="cart-sidebar">
+      <div class="cart-header">
+        <h3>Your Cart</h3>
+        <button id="close-cart" class="close-cart">&times;</button>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-footer">
+        <h4>Total: $<span id="cart-total">0.00</span></h4>
+        <button class="btn-flat btn-hover">Checkout</button>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+  </body>
+</html>

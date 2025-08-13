@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AboutUs</title>
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="images/pageicon.png" type="image/x-icon" />
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: rgba(216, 216, 216, 0.815);
+      }
+      section {
+        padding: 40px;
+        border-radius: 30px;
+        width: 80%;
+        box-shadow: 1px 1px 20px 1px rgb(88, 88, 88);
+        background-color: #fff;
+      }
+      .left {
+        margin-top: 40px;
+      }
+      img {
+        width: 100%;
+        animation: float 2s infinite alternate-reverse;
+        border-radius: 40px;
+      }
+      .image {
+        max-width: 400px;
+      }
+      @keyframes float {
+        0% {
+          transform: translateY(-30px);
+        }
+        100% {
+          transform: translateY(20px);
+        }
+      }
+
+      @media (max-width: 576px) {
+        section {
+          padding: 20px;
+          width: 95%;
+        }
+        .left {
+          margin-top: 20px;
+        }
+        .left h2 {
+          font-size: 1.5rem !important; 
+        }
+        .left p {
+          font-size: 0.9rem !important; 
+        }
+        .left,
+        .image {
+          max-width: 100% !important;
+          flex: 0 0 100% !important;
+          margin: 0 auto;
+        }
+        section {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .image {
+          margin-top: 25px;
+          max-width: 90vw !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="row justify-content-around align-items-center">
+      <div class="left col-12 col-md-5">
+        <h2 class="p-2 fs-1 text-dark fw-bold">About Us</h2>
+        <p class="p-2 fs-5 text-secondary">
+          Welcome to ATShop, the home of crystal-clear sound and unbeatable
+          audio style. We believe headphones are more than just a tool — they’re
+          your escape, your motivation, and your soundtrack to life. Whether
+          you’re working, gaming, traveling, or just vibing to your favorite
+          playlist, the right pair can transform every moment.
+        </p>
+      </div>
+      <div class="col-12 col-md-5 image">
+        <img src="images/About.jpg" alt="About ATShop" class="img-fluid shadow" />
+      </div>
+    </section>
+  </body>
+</html>
